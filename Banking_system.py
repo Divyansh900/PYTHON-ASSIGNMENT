@@ -5,6 +5,8 @@ import datetime
 from getpass import getpass
 import sys
 
+# Using SQLite3 due to installation issues in MySQL
+
 class BankingSystem:
     def __init__(self):
         # Connect to db
